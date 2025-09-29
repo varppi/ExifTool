@@ -1,4 +1,4 @@
-module github.com/varppi/ExifTool
+module github.com/varppi/RecurExif
 
 go 1.25.0
 

@@ -11,8 +11,8 @@ import (
 
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
-	"github.com/varppi/ExifTool/internal/parser"
-	"github.com/varppi/ExifTool/internal/progress"
+	"github.com/varppi/RecurExif/internal/parser"
+	"github.com/varppi/RecurExif/internal/progress"
 )
 
 func info(msg string) {
@@ -23,11 +23,11 @@ func info(msg string) {
 
 func main() {
 	fmt.Fprint(os.Stderr, `
-_____________  ____________________________________________ 
-___  ____/_  |/ /___  _/__  ____/__  __/_  __ \_  __ \__  / 
-__  __/  __    / __  / __  /_   __  /  _  / / /  / / /_  /  
-_  /___  _    | __/ /  _  __/   _  /   / /_/ // /_/ /_  /___
-/_____/  /_/|_| /___/  /_/      /_/    \____/ \____/ /_____/
+______________________________  ______________________  __________________
+___  __ \__  ____/_  ____/_  / / /__  __ \__  ____/_  |/ /___  _/__  ____/
+__  /_/ /_  __/  _  /    _  / / /__  /_/ /_  __/  __    / __  / __  /_    
+_  _, _/_  /___  / /___  / /_/ / _  _, _/_  /___  _    | __/ /  _  __/    
+/_/ |_| /_____/  \____/  \____/  /_/ |_| /_____/  /_/|_| /___/  /_/       
 
 `)
 	pflag.String("extensions", "", "Only parses files with specific extensions. Example: pdf,png,jpg")

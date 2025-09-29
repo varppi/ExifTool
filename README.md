@@ -1,11 +1,11 @@
-# ExifTool
+# RecurExif
 A simple CLI tool to find all files containing metadata.
 
 ## Installation
 1. Verify you have Go 1.25 or higher
-2. `go install github.com/varppi/ExifTool/cmd/ExifTool`
+2. `go install github.com/varppi/RecurExif/cmd/RecurExif`
 3. `export PATH=~/go/bin`
-4. `ExifTool`
+4. `RecurExif`
 
 ## Help
 ```
@@ -18,11 +18,11 @@ A simple CLI tool to find all files containing metadata.
 
 ## Example output
 ```
-_____________  ____________________________________________
-___  ____/_  |/ /___  _/__  ____/__  __/_  __ \_  __ \__  /
-__  __/  __    / __  / __  /_   __  /  _  / / /  / / /_  /
-_  /___  _    | __/ /  _  __/   _  /   / /_/ // /_/ /_  /___
-/_____/  /_/|_| /___/  /_/      /_/    \____/ \____/ /_____/
+______________________________  ______________________  __________________
+___  __ \__  ____/_  ____/_  / / /__  __ \__  ____/_  |/ /___  _/__  ____/
+__  /_/ /_  __/  _  /    _  / / /__  /_/ /_  __/  __    / __  / __  /_    
+_  _, _/_  /___  / /___  / /_/ / _  _, _/_  /___  _    | __/ /  _  __/    
+/_/ |_| /_____/  \____/  \____/  /_/ |_| /_____/  /_/|_| /___/  /_/       
 
 
 starting...

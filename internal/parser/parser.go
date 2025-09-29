@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/varppi/ExifTool/internal/exif"
-	"github.com/varppi/ExifTool/internal/pdf"
+	"github.com/varppi/RecurExif/internal/exif"
+	"github.com/varppi/RecurExif/internal/pdf"
 )
 
 type Metadata struct {
